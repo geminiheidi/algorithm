@@ -12,5 +12,4 @@ public class SortUtil {
         a[x]=a[y];
         a[y]=z;
     }
-
 }

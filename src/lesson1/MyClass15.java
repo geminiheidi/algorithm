@@ -10,5 +10,4 @@ public class MyClass15 {
         System.out.println(myStringinUpperCase);
         System.out.println(myString.replace('e','a'));
     }
-
 }

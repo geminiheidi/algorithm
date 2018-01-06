@@ -5,7 +5,6 @@ public class MyClass10 {
         int score=80;
         switch(score){
             case 90:
-            case 70:
                 System.out.println("Very good");
                 break;
             case 60:
