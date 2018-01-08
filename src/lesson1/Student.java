@@ -2,6 +2,16 @@ package lesson1;
 
 public class Student {
 
+    static int NoOfStudents=0;
+
+    Student (){
+        NoOfStudents++;
+    }
+
+    public static int getNoOfStudents(){
+        return NoOfStudents;
+    }
+
 
         int id;
 
