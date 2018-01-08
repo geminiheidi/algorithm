@@ -2,7 +2,7 @@ package sort;
 
 public class Quick {
     public static void sort(Comparable[] a) {
-        //StdRandom.shuffle(a);
+        // Cannot use this library in a package: StdRandom.shuffle(a);
         sort(a, 0, a.length - 1);
     }
 
